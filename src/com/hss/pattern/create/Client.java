@@ -1,7 +1,9 @@
 package com.hss.pattern.create;
 
 import com.hss.pattern.create.factorypattern.commomfactory.SendFactory;
-
+//1补全main函数，但是在IntellJ中则是输入psvm，选中即可
+//2、在方法体内部有for循环，在IntellJ中是输入fori，然后会有一个提示，选中需要的for循环即可
+//3、System.out.println();在IntellJ中是输入sout
 /**
  * Created by Administrator on 2017/10/11.
  */
