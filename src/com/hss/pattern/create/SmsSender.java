@@ -1,9 +1,9 @@
-package com.hss.pattern.create.factorypattern;
+package com.hss.pattern.create;
 
 /**
  * Created by Administrator on 2017/10/11.
  */
-public class SmsSend implements ISend {
+public class SmsSender implements ISender {
     @Override
     public void send() {
         System.out.println("SmsSend send");

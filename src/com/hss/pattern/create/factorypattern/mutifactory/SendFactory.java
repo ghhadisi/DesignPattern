@@ -1,17 +1,17 @@
 package com.hss.pattern.create.factorypattern.mutifactory;
 
-import com.hss.pattern.create.factorypattern.ISend;
-import com.hss.pattern.create.factorypattern.MailSend;
-import com.hss.pattern.create.factorypattern.SmsSend;
+import com.hss.pattern.create.ISender;
+import com.hss.pattern.create.MailSender;
+import com.hss.pattern.create.SmsSender;
 
 /**
  * Created by Administrator on 2017/10/11.
  */
 public class SendFactory {
-    public ISend produceSms(){
-        return new SmsSend();
+    public ISender produceSms(){
+        return new SmsSender();
     }
-    public ISend produceMail(){
-        return new MailSend();
+    public ISender produceMail(){
+        return new MailSender();
     }
 }
