@@ -1,4 +1,4 @@
-package com.hss.pattern.struct.adapterpattern.classadapter;
+package com.hss.pattern.struct.adapterpattern;
 
 public interface Targetable {
     /* 与原类中的方法相同 */
