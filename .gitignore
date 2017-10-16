@@ -27,3 +27,7 @@ hs_err_pid*
 /.idea/encodings.xml
 
 /bin/
+/.idea/workspace.xml
+/.idea/markdown-navigator.xml
+
+/.idea/uiDesigner.xml
