@@ -1,5 +1,8 @@
 package com.hss.pattern.action.iteratorpattern;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Client {
     public static void main(String[] args) {
         Collection collection = new MyCollection();
