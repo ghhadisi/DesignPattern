@@ -5,5 +5,6 @@ package com.hss.pattern.action.mediatorpattern;
  */
 public interface Mediator {
     public void createMediator();
+
     public void workAll();
 }

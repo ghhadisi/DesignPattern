@@ -2,7 +2,8 @@ package com.hss.pattern.action.iteratorpattern;
 
 public class MyCollection implements Collection {
 
-    public String string[] = {"A","B","C","D","E"};
+    public String string[] = {"A", "B", "C", "D", "E"};
+
     @Override
     public Iterator iterator() {
         return new MyIterator(this);

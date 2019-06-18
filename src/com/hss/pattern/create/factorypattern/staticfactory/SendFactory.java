@@ -8,10 +8,11 @@ import com.hss.pattern.create.SmsSender;
  * Created by Administrator on 2017/10/11.
  */
 public class SendFactory {
-    public static ISender produceSms(){
+    public static ISender produceSms() {
         return new SmsSender();
     }
-    public static ISender produceMail(){
+
+    public static ISender produceMail() {
         return new MailSender();
     }
 }

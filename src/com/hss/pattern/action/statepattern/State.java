@@ -14,11 +14,11 @@ public class State {
         this.value = value;
     }
 
-    public void method1(){
+    public void method1() {
         System.out.println("execute the first opt!");
     }
 
-    public void method2(){
+    public void method2() {
         System.out.println("execute the second opt!");
     }
 }

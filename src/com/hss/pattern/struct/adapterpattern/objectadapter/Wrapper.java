@@ -8,10 +8,12 @@ import com.hss.pattern.struct.adapterpattern.Targetable;
  */
 public class Wrapper implements Targetable {
     private Source source;
-    public Wrapper(Source source){
+
+    public Wrapper(Source source) {
         super();
         this.source = source;
     }
+
     @Override
     public void method1() {
         source.method1();

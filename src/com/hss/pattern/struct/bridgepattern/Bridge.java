@@ -5,7 +5,8 @@ package com.hss.pattern.struct.bridgepattern;
  */
 public abstract class Bridge {
     private Sourceable source;
-    public void method(){
+
+    public void method() {
         source.method();
     }
 

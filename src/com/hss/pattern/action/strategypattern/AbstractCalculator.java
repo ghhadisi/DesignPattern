@@ -4,7 +4,7 @@ package com.hss.pattern.action.strategypattern;
  * Created by Administrator on 2017/10/29.
  */
 public abstract class AbstractCalculator {
-    public int[] split(String exp,String opt){
+    public int[] split(String exp, String opt) {
         String array[] = exp.split(opt);
         int arrayInt[] = new int[2];
         arrayInt[0] = Integer.parseInt(array[0]);

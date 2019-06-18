@@ -6,7 +6,7 @@ package com.hss.pattern.action.mediatorpattern;
 public abstract class User {
     private Mediator mediator;
 
-    public Mediator getMediator(){
+    public Mediator getMediator() {
         return mediator;
     }
 

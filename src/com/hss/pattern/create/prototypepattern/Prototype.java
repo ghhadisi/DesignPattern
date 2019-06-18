@@ -5,12 +5,12 @@ import java.io.*;
 /**
  * Created by Administrator on 2017/10/14.
  */
-public class Prototype implements Cloneable , Serializable {
+public class Prototype implements Cloneable, Serializable {
     private static final long serialVersionUID = 1L;
     private String string;
 
-//    private SerializableObject obj;
-     /* 浅复制 */
+    //    private SerializableObject obj;
+    /* 浅复制 */
     public Object clone() throws CloneNotSupportedException {
         Prototype proto = (Prototype) super.clone();
         return proto;

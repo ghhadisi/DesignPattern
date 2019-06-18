@@ -18,11 +18,11 @@ public class Original {
         this.value = value;
     }
 
-    public Memento createMemento(){
+    public Memento createMemento() {
         return new Memento(value);
     }
 
-    public void restoreMemento(Memento memento){
+    public void restoreMemento(Memento memento) {
         this.value = memento.getValue();
     }
 }

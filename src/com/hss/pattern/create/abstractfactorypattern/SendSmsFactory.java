@@ -6,7 +6,7 @@ import com.hss.pattern.create.SmsSender;
 /**
  * Created by Administrator on 2017/10/14.
  */
-public class SendSmsFactory  implements Provider{
+public class SendSmsFactory implements Provider {
 
     @Override
     public ISender produce() {

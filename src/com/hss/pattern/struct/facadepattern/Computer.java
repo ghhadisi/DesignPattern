@@ -8,13 +8,13 @@ public class Computer {
     private Memory memory;
     private Disk disk;
 
-    public Computer(){
+    public Computer() {
         cpu = new CPU();
         memory = new Memory();
         disk = new Disk();
     }
 
-    public void startup(){
+    public void startup() {
         System.out.println("start the computer!");
         cpu.startup();
         memory.startup();
@@ -22,7 +22,7 @@ public class Computer {
         System.out.println("start computer finished!");
     }
 
-    public void shutdown(){
+    public void shutdown() {
         System.out.println("begin to close the computer!");
         cpu.shutdown();
         memory.shutdown();

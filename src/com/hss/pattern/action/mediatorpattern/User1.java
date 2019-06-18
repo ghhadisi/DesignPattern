@@ -5,7 +5,7 @@ package com.hss.pattern.action.mediatorpattern;
  */
 public class User1 extends User {
 
-    public User1(Mediator mediator){
+    public User1(Mediator mediator) {
         super(mediator);
     }
 

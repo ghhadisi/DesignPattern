@@ -11,7 +11,7 @@ public class TreeNode {
     private TreeNode parent;
     private Vector<TreeNode> children = new Vector<TreeNode>();
 
-    public TreeNode(String name){
+    public TreeNode(String name) {
         this.name = name;
     }
 
@@ -32,17 +32,17 @@ public class TreeNode {
     }
 
     //添加孩子节点
-    public void add(TreeNode node){
+    public void add(TreeNode node) {
         children.add(node);
     }
 
     //删除孩子节点
-    public void remove(TreeNode node){
+    public void remove(TreeNode node) {
         children.remove(node);
     }
 
     //取得孩子节点
-    public Enumeration<TreeNode> getChildren(){
+    public Enumeration<TreeNode> getChildren() {
         return children.elements();
     }
 }

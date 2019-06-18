@@ -6,9 +6,9 @@ import com.hss.pattern.create.MailSender;
 /**
  * Created by Administrator on 2017/10/14.
  */
-public class SendMailFactory implements Provider  {
+public class SendMailFactory implements Provider {
     @Override
-    public ISender produce(){
+    public ISender produce() {
         return new MailSender();
     }
 }

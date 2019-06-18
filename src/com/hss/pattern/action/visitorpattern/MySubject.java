@@ -1,6 +1,6 @@
 package com.hss.pattern.action.visitorpattern;
 
-public class MySubject implements Subject{
+public class MySubject implements Subject {
     @Override
     public void accept(Visitor visitor) {
         visitor.visit(this);

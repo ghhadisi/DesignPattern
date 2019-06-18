@@ -13,14 +13,14 @@ import java.util.List;
 public class Builder {
     private List<ISender> list = new ArrayList<ISender>();
 
-    public void produceMailSender(int count){
-        for(int i=0; i<count; i++){
+    public void produceMailSender(int count) {
+        for (int i = 0; i < count; i++) {
             list.add(new MailSender());
         }
     }
 
-    public void produceSmsSender(int count){
-        for(int i=0; i<count; i++){
+    public void produceSmsSender(int count) {
+        for (int i = 0; i < count; i++) {
             list.add(new SmsSender());
         }
     }
